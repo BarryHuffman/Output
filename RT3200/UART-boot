@@ -1,0 +1,53 @@
+F0: 102B 0000
+F6: 0000 0000 
+V0: 0000 0000 [0000]
+00: 0000 0000
+BP: 0400 0041 [0000]
+G0: 1190 0000
+T0: 0000 02B0 [000F]
+Jump to BL
+
+NOTICE: BL2: v2.4(release):OpenWRT v2021-03-10-8b635f61-1 (mt7622-snand-1ddr)
+NOTICE: BL2: Built : 00:18:58, Mar 12 2021
+NOTICE: SPI-NAND: FM35Q1GA (128MB)
+
+serial_mtk serial@11002000: pinctrl_select_state_full: uclass_get_device_by_phandle
+
+U-Boot 2021.04-rc3 (Mar 12 2021 - 00:18:58 +0000)
+
+CPU:   MediaTek MT7622
+MODEL: mt7622-linksys-e8450-ubi
+DRAM:  512 MiB
+WDT:   Started with servicing (60s timeout)
+MMC:
+Loading Environment from UBI... SPI-NAND: FM35Q1GA (128MB)
+Read 126976 byte from volume ubootenv to 000000005f7bf500
+Read 126976 byte from volume ubootenv2 to 000000005f7de540
+OK
+In:   serial@11002000
+Out:  serial@11002000
+Err:  serial@11002000
+Loading Environment from UBI... Read 126976 byte from volume ubootenv to 000000005f7bf500
+Read 126976 byte from volume ubootenv2 to 000000005f7de540
+
+
+################MENU###################
+1. Run default boot command.
+2. Boot system via TFTP.
+3. Boot production system from flash.
+4. Boot recovery system from flash.
+5. Load production system via TFTP then write to flash.
+6. Load recovery system via TFTP then write to flash.
+7. Load BL31-U-Boot FIP via TFTP then write to flash.
+8. Load BL2 preloader via TFTP then write to flash.
+9. Reboot.
+a. Reset all settings to factory defaults.
+0. U-Boot console.
+##############TIMEOUT#################
+
+Volume fit not found!
+# Checking Image at 4007ff28 ... 
+Unknown image format!
+# Checking Image at 4007ff28 ...
+Unknown image format!
+Volume recovery not found!
