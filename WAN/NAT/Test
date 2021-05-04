@@ -6,3 +6,6 @@ Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch) | NAT ([S]ingle/[D]o
 10 231.76 11.94 1620096026 D M
 
 09 239.69 11.66 1620097652 D N
+
+ 11 227.43 12.01 1620100902 S M
+
