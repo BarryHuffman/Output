@@ -3,6 +3,6 @@
 #Format
 Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch) | NAT ([S]ingle/[D]ouble)      
 
-10 231.76 11.94 05/03/2021 1620096026 D
+10 231.76 11.94 1620096026 D
 
-
+09 239.69 11.66 1620097652 S
