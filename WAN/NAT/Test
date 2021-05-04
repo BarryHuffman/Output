@@ -1,8 +1,8 @@
 #Testing double NAT circumstances
 
 #Format
-Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch) | NAT ([S]ingle/[D]ouble)      
+Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch) | NAT ([S]ingle/[D]ouble) | Connection ([M]ulti or [N]on)    
 
-10 231.76 11.94 1620096026 D
+10 231.76 11.94 1620096026 D M
 
-09 239.69 11.66 1620097652 S
+09 239.69 11.66 1620097652 D N
