@@ -1,8 +1,8 @@
 #Testing double NAT circumstances
 
 #Format
-Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch)        
+Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch) | NAT ([S]ingle/[D]ouble)      
 
-10 231.76 11.94 05/03/2021 1620096026
+10 231.76 11.94 05/03/2021 1620096026 D
 
 
