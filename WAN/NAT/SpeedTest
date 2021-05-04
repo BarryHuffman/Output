@@ -1,0 +1,8 @@
+#Testing double NAT circumstances
+
+#Format
+Ping(ms) | Download(mbps) | Upload(mbps) | Time(UNIX Epoch)        
+
+10 231.76 11.94 05/03/2021 1620096026
+
+
